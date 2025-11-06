@@ -1,0 +1,7 @@
+﻿services:
+  taskify.api:
+    image: taskify.api
+    build:
+      context: .
+      dockerfile: Taskify.Api/Dockerfile
+

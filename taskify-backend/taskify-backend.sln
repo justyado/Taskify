@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taskify.Api", "src\Taskify.Api\Taskify.Api.csproj", "{DB68C668-00F7-48D5-93FD-5763286224BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A83FA10E-3130-4137-85A6-4E28E20237DD}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taskify.Core", "src\Taskify.Core\Taskify.Core.csproj", "{CEBD53D1-1E15-42F7-8AEE-493838B7BAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taskify.Infrastructure", "src\Taskify.Infrastructure\Taskify.Infrastructure.csproj", "{CFB6B8E9-AEAE-4089-93B9-0C8A94E5C410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taskify.Application", "src\Taskify.Application\Taskify.Application.csproj", "{AAE16144-27F2-491B-898E-755ADEF3FFBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taskify.Tests", "Taskify.Tests\Taskify.Tests.csproj", "{5DE81FF8-F6CA-4975-B5D3-43C3A459FBB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB68C668-00F7-48D5-93FD-5763286224BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB68C668-00F7-48D5-93FD-5763286224BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB68C668-00F7-48D5-93FD-5763286224BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB68C668-00F7-48D5-93FD-5763286224BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBD53D1-1E15-42F7-8AEE-493838B7BAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBD53D1-1E15-42F7-8AEE-493838B7BAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBD53D1-1E15-42F7-8AEE-493838B7BAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBD53D1-1E15-42F7-8AEE-493838B7BAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB6B8E9-AEAE-4089-93B9-0C8A94E5C410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB6B8E9-AEAE-4089-93B9-0C8A94E5C410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB6B8E9-AEAE-4089-93B9-0C8A94E5C410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB6B8E9-AEAE-4089-93B9-0C8A94E5C410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE16144-27F2-491B-898E-755ADEF3FFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE16144-27F2-491B-898E-755ADEF3FFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE16144-27F2-491B-898E-755ADEF3FFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE16144-27F2-491B-898E-755ADEF3FFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE81FF8-F6CA-4975-B5D3-43C3A459FBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE81FF8-F6CA-4975-B5D3-43C3A459FBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE81FF8-F6CA-4975-B5D3-43C3A459FBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE81FF8-F6CA-4975-B5D3-43C3A459FBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

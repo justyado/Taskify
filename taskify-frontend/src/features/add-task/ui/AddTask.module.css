@@ -1,0 +1,45 @@
+@reference "@/app/styles/global.css";
+
+.dialog {
+    @apply w-full max-w-sm md:max-w-md p-6 bg-background shadow-lg gap-4 border border-border;
+}
+
+.title {
+    @apply text-center text-xl font-semibold text-gray-700;
+}
+
+.subtitle {
+    @apply text-center text-sm text-gray-500;
+}
+
+.closeBtn {
+    @apply top-3 right-3 text-gray-400 hover:text-gray-600 transition;
+}
+
+.form {
+    @apply flex flex-col gap-3;
+}
+
+.button {
+    @apply w-full py-6 text-lg;
+}
+
+.field {
+    @apply flex flex-col gap-2;
+}
+
+.label {
+    @apply text-sm font-medium text-gray-700;
+}
+
+.required {
+    @apply text-red-500;
+}
+
+.inputError {
+    @apply border-red-500 focus:border-red-500 focus:ring-red-500;
+}
+
+.errorText {
+    @apply text-xs text-red-500 mt-1;
+}

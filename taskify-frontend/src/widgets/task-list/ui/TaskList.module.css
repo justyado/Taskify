@@ -1,0 +1,42 @@
+@reference "@/app/styles/global.css";
+
+.grid {
+    @apply grid gap-6 w-full max-w-7xl;
+    @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+}
+
+.cardWrapper {
+    @apply cursor-pointer transition-transform hover:scale-105;
+}
+
+.center {
+    @apply flex items-center justify-center w-full min-h-[400px];
+}
+
+.loader {
+    @apply text-lg text-gray-600 animate-pulse;
+}
+
+.error {
+    @apply flex flex-col items-center gap-4 p-6 bg-red-50 rounded-lg border border-red-200;
+}
+
+.error p {
+    @apply text-red-600 text-center;
+}
+
+.error button {
+    @apply px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors;
+}
+
+.empty {
+    @apply flex flex-col items-center gap-2 p-6 text-gray-500;
+}
+
+.empty p:first-child {
+    @apply text-xl font-semibold;
+}
+
+.empty p:last-child {
+    @apply text-sm;
+}
